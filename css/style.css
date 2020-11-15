@@ -1,0 +1,839 @@
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-Bold.woff);
+    font-weight:700;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Open Sans';
+    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+    font-weight:400;
+    font-style: normal;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+  
+    padding: 0;
+    margin:0;
+    font-family: 'Open Sans';
+}
+
+
+.header{
+    width: 1660px;
+    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    position: relative;
+    background-size: cover;
+    background-color: black;
+    
+}
+
+.header::before{
+    content: '';
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #213036;
+    border: 0;
+}
+
+
+.header-nav{
+    
+    
+    display: flex;
+    padding-left: 245px;
+    
+    padding-top: 28px;
+    margin-right: 0;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo-nav-header{
+    
+    height: 41px;
+}
+
+
+
+.menu-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 245px;
+    
+}
+
+
+
+
+
+.link__menu-item{
+    text-decoration: none;
+    margin-left: 35px;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.link__menu-item-mistaiks{
+    padding-left: 0;
+}
+
+
+.header-title{
+    padding-top: 130px;
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: Bold;
+    font-size: 45px;
+    
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-bottom:126px;
+    position: relative;
+    display: block;
+    width: 690px;
+    margin: 0 auto;
+    padding-top: 106px;
+    padding-left: 0px;
+    line-height: 74px;
+    
+    
+}
+
+.main{
+    max-width: 1660px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    
+}
+
+
+.section{
+   
+    margin-left: 230px;
+    width: 778px;
+    padding-left:15px;
+    margin-top: 65px;
+}
+
+
+
+
+.section-travel-healt{
+    display: flex;
+    margin-top: 55px;
+    
+    
+}
+
+
+
+.section-travel-healt-1{
+    margin-top:  0px;
+   
+}
+.section-travel-art{
+    margin-top: 56px;
+}
+
+.travel__block{
+    margin-left: 27px;
+    
+    
+}
+
+.trevel__healt-words{
+    color: #c5b585;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 4px;
+    margin-top:-2px ;
+    
+    display: flex;
+    
+
+}
+
+
+
+
+
+.list__travel_blok{
+    margin-left: 0;
+    list-style-type: none;
+    padding-left: 18px;
+    text-transform: uppercase;
+}
+
+
+.list__travel_blok:first-child{
+    padding-left: 0;
+}
+
+
+.span-words{
+    display: inline-block;
+    padding-left: 15px;
+}
+
+.span-words-1{
+    padding-left: 0;
+}
+
+
+.section-travel-healt-2{
+    margin-top: 55px;
+}
+
+
+.section-travel-food{
+    margin-top: 58px;
+}
+.span-health{
+    display: inline-block;
+    padding-left: 15px;
+
+}
+
+.span-health-1{
+    padding-left: 0;
+}
+
+.span-word-lifestely{
+    padding-left: 13px;
+}
+
+
+
+
+.section-title-travel{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 3px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 3px;
+    
+    text-transform: uppercase;
+}
+
+.section-date-time{
+    padding-top: 26px;
+    font-weight: bold;
+    font-size: 12px;
+    display: inline-block;
+    
+}
+
+.time{
+    padding-right: 9px;
+    color: #929292;
+}
+
+.section-desc-travel{
+    margin: 0;
+    padding-top: 46px;
+    font-weight: 500;
+    font-size: 15px;
+    
+    color: #313030;
+    padding-left: 3px;
+   
+  
+}
+
+.section-desc-trave-2{
+
+    padding-top: 13px;
+    padding-left: 3px;
+    
+    
+}
+
+.description__travel-travel{
+    padding-top: 20px;
+}
+
+.section-desc-music-1{
+    padding-top:44px;
+}
+
+
+.aside{
+    width: 100%;
+    margin-left: 120px;
+    display: block;
+    margin-right: 15px;
+    max-width: 272px;
+    
+}
+
+
+.news__post{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 61px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-size: 14px;
+    padding-left: 5px;
+    text-transform: uppercase;
+    
+}
+
+
+.news__post:after{
+    
+    margin: 0 auto;
+    content: "";
+    display: block;
+    width: 66px;
+    height: 4px;
+    margin-top: 9px;
+    background-color: #b59f5b;
+    margin-left: 102px;
+}
+
+.news__post-block{
+    width: 100%;
+    display: flex;
+    vertical-align: text-top;
+    margin-top: 4px;
+}
+
+
+.news__post-block-1{
+    padding-bottom: 1px;
+}
+
+
+.news__post-block-2{
+    padding-top: 12px;
+    padding-bottom: 14px;
+}
+
+.news__post-block-2{
+
+}
+
+
+.news__post-block-4{
+   margin-top: 12px;
+}
+
+.news__post-block-5{
+    margin-top: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.link__post-block-title{
+    width: inherit;
+    text-decoration: none;
+    color: #0f0d0e;
+    text-transform: uppercase;
+}
+
+
+.news__post-block-date{
+    margin-left: 19px;
+    
+    
+    
+    
+}
+
+.time__news-block{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    padding-top: 0;
+    font-size: 12px;
+    color: #a2a2a2;
+    vertical-align: top;
+
+   
+}
+
+.pic__post-news{
+    width: 70px;
+    height: 70px;
+    margin-top: 4px;
+   
+   
+}
+
+.news__post-block-title{
+    margin-top: -1px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 14px;
+    
+
+}
+
+.block__form{
+    display: flex;
+    width: 100%;
+    margin-top: 61px;
+    justify-content: space-between;
+    margin-bottom: 53px;
+    
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+
+.input{
+    padding-top: 17px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    background: #f4f7f6;
+    border: 0;
+    vertical-align: top;
+    min-width: 195px;
+   
+    
+}
+
+
+
+.button{
+    padding-left: 0;
+    
+    border:0;
+   
+    width: 50px;
+    height: 50px;
+    background: #b59f5b;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.button{
+    background-image: url(../img/search.svg);
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+
+}
+
+
+.button:hover{
+    cursor: pointer;
+    background-color: #000000;
+
+}
+
+.span-button-text{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+
+
+
+.link_text{
+
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+    
+}
+
+.mailing-block{
+    margin-top: 22px;
+    width: 100%;
+}
+
+.mailing-title{
+    
+    margin: 0 auto;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.mailing-title::after{
+    margin: 0 auto;
+    content: "";
+    display: block;
+    width: 67px;
+    height: 3px;
+    margin-top: 11px;
+    background-color: #b59f5b;
+}
+
+
+
+
+
+
+
+.mailing-input{
+    background: #f4f7f6;
+    padding-top: 15px;
+    padding-left: 19px;
+    padding-bottom: 18px;
+    margin-bottom: 10px;
+    width: 272px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.button-mailing{
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background: #b59f5b;
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 7px;
+    color: #ffffff;
+  
+}
+
+.button-mailing:hover{
+    background: #000000;
+    cursor: pointer;
+}
+
+
+
+
+
+.tags-block-wrapper{
+    width: 100%;
+}
+
+
+.tags-title{
+    padding-top: 56px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.tags-title::after{
+    margin: 0 auto;
+    content: "";
+    display: block;
+    width: 66px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #b59f5b;
+    margin-left: 102px;
+
+}
+
+.tags-block-list{
+    margin-top: 10px;
+    
+    
+}
+
+.tags-list-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    padding-top: 7px;
+    
+    
+    
+
+}
+
+.tag-list{
+    border: 3px solid #eeeeee;
+    padding-right: 13px;
+    padding-left: 11px;
+    margin-top: 7px;
+    margin-left: 6px;
+   
+
+    
+    
+   
+}
+
+
+.tag-list-3{
+    padding-left: 14px;
+}
+
+.tag-link{
+    color:#0f0d0e;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+.block-theme{
+    margin-top: 59px;
+    
+}
+
+.block-theme-title{
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    
+}
+
+
+.block-theme-title:after{
+    margin: 0 auto;
+    content: "";
+    display: block;
+    width: 66px;
+    height: 4px;
+    margin-top: 10px;
+    margin-left: 102px;
+    background-color: #e1d9bd;
+}
+   
+.theme-list{
+    padding: 0;
+    margin: 0;
+    padding-top: 21px;
+    
+    list-style-type: none;
+    position: relative;
+}
+
+
+.them-list-list::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin-top: 11px;
+    margin-bottom: 15px;
+    background-color: #eeeeee;
+
+}
+
+.link-list-them{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+}
+
+
+.number-them{
+    font-weight: bold;
+    font-size: 12px;
+    color: #b59f5b;
+    position: absolute;
+    padding-left: 5px;
+}
+
+
+
+.footer{
+    max-width: 1660px;
+    margin: 0 auto;
+    
+   }
+
+
+.footer__cards{
+    background-color:#f4f7f6;
+    margin-right: 245px;
+    margin-left: 245px;
+    padding-left: 381px;
+    margin-top: 56px;
+   
+}
+
+.footer-cards-list{
+    width: 367px;
+    padding-top: 31px;
+    padding-bottom: 33px;
+    display: flex;
+    margin-left: 19px;
+    list-style-type: none;
+    padding-left: 120px;
+    justify-content:center;
+    
+    align-items: center;
+}
+
+.footer-cards-list:first-child{
+    padding-left: 0;
+}
+
+.footer-cards-list:first-child{
+    padding-right: 0;
+}
+
+.footer-link-card{
+    padding-left: 27px;
+}
+
+
+
+.footer-link-card-1{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/svg/004-twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:20px;
+    
+}
+
+.footer-link-card-2{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/svg/001-pinterest.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:20px;
+
+}
+
+.footer-link-card-3{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/svg/002-facebook-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:20px;
+
+}
+
+.footer-link-card-4{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/svg/005-instagram.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:20px;
+
+}
+
+.footer-link-card-5{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/svg/003-tumblr.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:20px;
+
+}
+
+
+
+
+   
+
+.span-link-footer{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    clip: rect(1px 1px 1px 1px);
+
+    
+}
+
+
+.copy-right{
+    margin-left: 726px;
+    margin-bottom: 40px;
+    margin-top: 64px;
+    
+}
+
+
+
+.link-copy-right{
+    color: #e0e0e0;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
