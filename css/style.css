@@ -7,7 +7,7 @@
 
 @font-face{
     font-family: 'Open Sans';
-    src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+    src: url(../fonts/OpenSans-Regular.woff);
     font-weight:400;
     font-style: normal;
 }
@@ -53,7 +53,7 @@ body{
 
 .header-nav{
     padding-left: 6px;
-    max-width: 1170px;
+    width: 1170px;
     display: flex;
     
     
@@ -411,7 +411,7 @@ body{
     width: 100%;
     margin-top: 63px;
     justify-content: space-between;
-    margin-bottom: 53px;
+    margin-bottom: 58px;
     
 }
 
@@ -423,7 +423,7 @@ body{
 
 
 
-.input{
+.field{
     padding-top: 17px;
     padding-bottom: 17px;
     padding-left: 19px;
@@ -431,24 +431,18 @@ body{
     background: #f4f7f6;
     border: 0;
     vertical-align: top;
-    min-width: 195px;
+    min-width: 222px;
     height: auto;
     
    
     
 }
 
-.labe{
-
-    width: 1px;
-    height: 1px;
-    clip: rect(1px, 1px, 1px, 1px);
-    position: absolute;
-}
 
 
 
-.button{
+
+.search-button{
     padding-left: 0;
     padding-right: 0;
     border: 0;
@@ -460,7 +454,7 @@ body{
 }
 
 
-.button{
+.search-button{
     background-image: url(../img/search.svg);
     background-size: 18px;
     background-position: center;
@@ -470,18 +464,22 @@ body{
 }
 
 
+.visually-hidden{
+
+    width: 1px;
+    height: 1px;
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+}
+
+
+
 .button:hover{
     cursor: pointer;
     background-color: #000000;
 
 }
 
-.span-button-text{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    clip: rect(1px, 1px, 1px, 1px);
-}
 
 
 
@@ -497,7 +495,7 @@ body{
 }
 
 .mailing-block{
-    margin-top: 22px;
+    margin-top: 23px;
     width: 100%;
 }
 
@@ -550,6 +548,7 @@ body{
     text-transform: uppercase;
     margin-top: 7px;
     color: #ffffff;
+    padding-left: 12px;
   
 }
 
@@ -837,7 +836,7 @@ body{
 
 
 .link-copy-right{
-    color: #e0e0e0;
+    color: #a1a1a1;
     font-weight: bold;
     font-size: 12px;
     text-align: center;
